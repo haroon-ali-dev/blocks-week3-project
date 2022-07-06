@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+button {
+    font-size: 25px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+#container {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-register {
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-title {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#register-name-field {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#register-profile-pic-field {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#register-d-o-b-field {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#add-comment-field {
+    font-size: 25px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+#container-post-comments {
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#post {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#container-add-comment {
+    width: 600px;
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-card {
+    width: 600px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-card-profile {
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-card-comment {
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-name {
+    font-size: 25px;
+}
+
+.comment-age {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.comment-pic {
+    width: 125px;
+    border-radius: 100%;
+}
+
+.comment {
+    font-size: 20px;
+}
